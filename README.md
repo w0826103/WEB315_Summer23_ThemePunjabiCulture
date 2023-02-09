@@ -8,6 +8,8 @@
 5. created modals folder with theme punjabi culture in it 
 6. 6 properties are created with ID, date ,time annotation
 7. EF Tools are installed 
+8. Used the Scaffolding terminal commands to build out your CRUD pages for model.
+Document the commands in the Readme.md.
 
 
     dotnet tool install --global dotnet-ef --version 5
@@ -17,3 +19,6 @@
     dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 5.*
     dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 5.*
 
+PunjabiCulture
+
+dotnet-aspnet-codegenerator razorpage -m PunjabiCulture -dc PunjabiCultureContext -udl -outDir Pages/PunjabiCulture --referenceScriptLibraries -sqlite

@@ -1,0 +1,52 @@
+@page
+@model WEB315_Summer23_ThemePunjabiCulture.Pages_PunjabiCulture.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>PunjabiCulture</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PunjabiCulture.CultureName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PunjabiCulture.CultureName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PunjabiCulture.OccassionDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PunjabiCulture.OccassionDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PunjabiCulture.Costume)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PunjabiCulture.Costume)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PunjabiCulture.Food)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PunjabiCulture.Food)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PunjabiCulture.OrganisedBy)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PunjabiCulture.OrganisedBy)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="PunjabiCulture.ID" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

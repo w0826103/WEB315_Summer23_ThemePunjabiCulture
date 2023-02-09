@@ -1,0 +1,55 @@
+@page
+@model WEB315_Summer23_ThemePunjabiCulture.Pages_PunjabiCulture.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>PunjabiCulture</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="PunjabiCulture.ID" />
+            <div class="form-group">
+                <label asp-for="PunjabiCulture.CultureName" class="control-label"></label>
+                <input asp-for="PunjabiCulture.CultureName" class="form-control" />
+                <span asp-validation-for="PunjabiCulture.CultureName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PunjabiCulture.OccassionDate" class="control-label"></label>
+                <input asp-for="PunjabiCulture.OccassionDate" class="form-control" />
+                <span asp-validation-for="PunjabiCulture.OccassionDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PunjabiCulture.Costume" class="control-label"></label>
+                <input asp-for="PunjabiCulture.Costume" class="form-control" />
+                <span asp-validation-for="PunjabiCulture.Costume" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PunjabiCulture.Food" class="control-label"></label>
+                <input asp-for="PunjabiCulture.Food" class="form-control" />
+                <span asp-validation-for="PunjabiCulture.Food" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PunjabiCulture.OrganisedBy" class="control-label"></label>
+                <input asp-for="PunjabiCulture.OrganisedBy" class="form-control" />
+                <span asp-validation-for="PunjabiCulture.OrganisedBy" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

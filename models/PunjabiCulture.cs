@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace WEB315_Summer23_ThemePunjabiCulture.Models
 {
-    public class Movie
+    public class PunjabiCulture
     {
         public int ID { get; set; }
         public string CultureName { get; set; }
