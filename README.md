@@ -10,6 +10,7 @@
 7. EF Tools are installed 
 8. Used the Scaffolding terminal commands to build out your CRUD pages for model.
 Document the commands in the Readme.md.
+9.  initiated the database schema.
 
 
     dotnet tool install --global dotnet-ef --version 5
@@ -22,3 +23,6 @@ Document the commands in the Readme.md.
 PunjabiCulture
 
 dotnet-aspnet-codegenerator razorpage -m PunjabiCulture -dc PunjabiCultureContext -udl -outDir Pages/PunjabiCulture --referenceScriptLibraries -sqlite
+
+    dotnet ef migrations add InitialCreate
+    dotnet ef database update
