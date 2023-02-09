@@ -5,3 +5,5 @@
 2. Invited  as a collaborator to the repository (username is Majid1292)
 3. created new web app
 4. welcome page updated with theme,Date and Time 
+5. created modals folder with theme punjabi culture in it 
+6. 6 properties are created with ID, date ,time annotation
