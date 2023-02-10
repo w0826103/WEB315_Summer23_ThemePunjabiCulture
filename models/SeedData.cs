@@ -13,7 +13,7 @@ namespace WEB315_Summer23_ThemePunjabiCulture.Models
                 serviceProvider.GetRequiredService<
                     DbContextOptions<PunjabiCultureContext>>()))
             {
-                .
+                
                 if (context.PunjabiCulture.Any())
                 {
                     return;   // DB has been seeded

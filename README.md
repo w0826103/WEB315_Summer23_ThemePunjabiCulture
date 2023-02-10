@@ -11,6 +11,10 @@
 8. Used the Scaffolding terminal commands to build out your CRUD pages for model.
 Document the commands in the Readme.md.
 9.  initiated the database schema.
+10. linked a webapp's top navigation bar that leads to the Index file of your new CRUD pages.
+11. SeedData is created
+12. added a minimum of 5 entries to your database
+13. update data base
 
 
     dotnet tool install --global dotnet-ef --version 5
