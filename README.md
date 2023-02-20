@@ -30,3 +30,12 @@ dotnet-aspnet-codegenerator razorpage -m PunjabiCulture -dc PunjabiCultureContex
 
     dotnet ef migrations add InitialCreate
     dotnet ef database update
+
+////////////////////////////////////////
+
+    README for Assignment No. 02
+
+//////////////////////////////////////
+
+1. Creating Branch of existing Assignment 01
+committing changes
