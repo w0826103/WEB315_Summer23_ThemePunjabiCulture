@@ -56,3 +56,7 @@ committing changes
     dotnet ef migrations add "update 1"
     dotnet ef database update
     committing changes
+
+6. Adding validations to the properties in PunjabiCulture.cs
+    Adding string length validation, upper case validation, range validation and error message validation.
+    Database updated successfully and commit changes
