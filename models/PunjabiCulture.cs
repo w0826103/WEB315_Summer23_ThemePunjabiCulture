@@ -14,6 +14,8 @@ namespace WEB315_Summer23_ThemePunjabiCulture.Models
         public string Costume { get; set; }
         public string Food { get; set; }
         public string OrganisedBy { get; set; }
+        public int DaysOfCelebration { get; set; }
+        public string OriginCity { get; set; }
 
         /*public int Rating { get; set;}
         public string RelatedFilms {get; set;}*/
