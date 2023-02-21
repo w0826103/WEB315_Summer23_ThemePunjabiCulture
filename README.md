@@ -51,3 +51,8 @@ committing changes
 3. Updated all the properties in all the CRUD pages. Committing changes
 
 4. Updated SeedData class with new properties. Committing changes
+
+5. Added a migration for rating
+    dotnet ef migrations add "update 1"
+    dotnet ef database update
+    committing changes
