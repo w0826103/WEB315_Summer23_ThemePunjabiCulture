@@ -60,3 +60,7 @@ committing changes
 6. Adding validations to the properties in PunjabiCulture.cs
     Adding string length validation, upper case validation, range validation and error message validation.
     Database updated successfully and commit changes
+
+7. Added search to the index Page and committed changes
+
+8. Updating the OnGetAsync method and creating SelectList. Changes are committed

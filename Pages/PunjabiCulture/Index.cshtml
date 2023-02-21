@@ -12,10 +12,12 @@
 </p>
 
  <p>
-        
+        <select asp-for="Diversity" asp-items="Model.LocalCulture">
+        <option value="">All</option>
+        </select>
         Search for Culture or City: <input type="text" asp-for="SearchString" />
         </p>
-
+        
 <table class="table">
     <thead>
         <tr>
