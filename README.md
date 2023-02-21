@@ -49,3 +49,5 @@ committing changes
 committing changes
 
 3. Updated all the properties in all the CRUD pages. Committing changes
+
+4. Updated SeedData class with new properties. Committing changes

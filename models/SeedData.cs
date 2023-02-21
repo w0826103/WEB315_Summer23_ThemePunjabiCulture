@@ -27,7 +27,9 @@ namespace WEB315_Summer23_ThemePunjabiCulture.Models
                         OccassionDate = DateTime.Parse("2023-11-12"),
                         Costume = "jeans",
                         Food = "dal roti",
-                        OrganisedBy = "gurbinder"
+                        OrganisedBy = "gurbinder",
+                        DaysOfCelebration = 7,
+                        OriginCity = "Amritsar"
                         },
 
                         new PunjabiCulture
@@ -36,7 +38,9 @@ namespace WEB315_Summer23_ThemePunjabiCulture.Models
                         OccassionDate = DateTime.Parse("2023-04-12"),
                         Costume = "kurta pajama",
                         Food = "saag",
-                        OrganisedBy = "manpreet"
+                        OrganisedBy = "manpreet",
+                        DaysOfCelebration = 1,
+                        OriginCity = "Ayodhya"
                         },
 
                         new PunjabiCulture
@@ -45,7 +49,9 @@ namespace WEB315_Summer23_ThemePunjabiCulture.Models
                         OccassionDate = DateTime.Parse("2023-01-01"),
                         Costume = " suit",
                         Food = " dhee",
-                        OrganisedBy = "karam"
+                        OrganisedBy = "karam",
+                        DaysOfCelebration = 2,
+                        OriginCity = "Kolkata"
                         },
 
                         new PunjabiCulture
@@ -54,7 +60,9 @@ namespace WEB315_Summer23_ThemePunjabiCulture.Models
                         OccassionDate = DateTime.Parse("2023-10-12"),
                         Costume = "tehmat",
                         Food = "paneer",
-                        OrganisedBy = "harry"
+                        OrganisedBy = "harry",
+                        DaysOfCelebration = 10,
+                        OriginCity = "Ayodhya"
                         },
 
                         new PunjabiCulture
@@ -63,7 +71,9 @@ namespace WEB315_Summer23_ThemePunjabiCulture.Models
                         OccassionDate = DateTime.Parse("2023-04-14"),
                         Costume = "phulkari",
                         Food = "mix veg",
-                        OrganisedBy = "meenu"
+                        OrganisedBy = "meenu",
+                        DaysOfCelebration = 1,
+                        OriginCity = "Anandpur Sahib"
                         }
                     );
                     context.SaveChanges();
