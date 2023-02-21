@@ -28,6 +28,12 @@
             <th>
                 @Html.DisplayNameFor(model => model.PunjabiCulture[0].OrganisedBy)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PunjabiCulture[0].DaysOfCelebration)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PunjabiCulture[0].OriginCity)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -49,6 +55,13 @@
             <td>
                 @Html.DisplayFor(modelItem => item.OrganisedBy)
             </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DaysOfCelebration)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OriginCity)
+            </td>
+            <td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
                 <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |

@@ -45,5 +45,7 @@ Above comments where committed from different system, now continuing asg 2 in my
 1. Creating Branch of existing Assignment 01
 committing changes
 
-2. 2. Adding 2 new property Integer and String
+2. Adding 2 new property Integer and String
 committing changes
+
+3. Updated all the properties in all the CRUD pages. Committing changes
