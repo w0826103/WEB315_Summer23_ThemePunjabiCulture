@@ -1,6 +1,6 @@
 using System;
 
-namespace BlazorApp.Data
+namespace punjabiCultureApp.Data
 {
     public class WeatherForecast
     {
