@@ -1,0 +1,10 @@
+@page "/punjabiCulture"
+
+@code{
+    string[] items = new string[]{
+        "dress","food","festivals","religion","history"
+    };
+}
+@foreach(var culture in items){
+    <p> @culture</p>
+}
